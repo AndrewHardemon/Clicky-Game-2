@@ -13,8 +13,8 @@ class App extends React.Component{
         <div>
           <Nav />
           <Switch>
-            <Route exact path="/" component={Game} />
-            <Route component={NoMatch} />
+            <Route path="/" component={Game} />
+            {/* <Route component={NoMatch} /> */}
           </Switch>
         </div>
       </Router>
